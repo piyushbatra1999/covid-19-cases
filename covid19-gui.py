@@ -27,6 +27,7 @@ inputtxt = Text(root, height=1,
 Output = Text(root, height=12,
               width=32,
               bg="linen")
+Output.insert(END, cv.fetch('india'))
 
 Display = Button(root, height=2,
                  width=20,
